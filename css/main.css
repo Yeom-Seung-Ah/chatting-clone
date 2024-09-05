@@ -1,0 +1,89 @@
+.sell-info {
+    display:flex;
+    align-items: center;
+    border-bottom: 2px solid var(--horizon-primary);
+}
+
+.sell-info__img {
+    margin: 15px 20px 15px 20px;
+    width: 50px;
+    height: 60px;
+    border:1px solid var(--horizon-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sell-info__img img {
+    width: 30px;
+    height: 30px;
+}
+
+.sell-info__desc-title {
+    padding-bottom: 10px;
+    font-weight: bold;
+    color:rgba(0,0,0,0.7);
+}
+
+.sell-info__desc-price {
+    font-weight: bold;
+}
+
+.message {
+    display:flex;
+    flex-direction: column;
+}
+
+.message-sender {
+    display:flex;
+    justify-content: end;
+}
+
+.message-sender__time-box {
+    display: flex;
+    align-items: end;
+    margin-right: 2px;
+    font-size: smaller;
+    font-weight: bold;
+    color: rgb(173, 173, 173);
+}
+
+.message-sender__msg {
+    width: 220px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 15px;
+    padding: 15px 15px 10px 20px;
+    background-color: rgba(254, 111, 15,0.9);
+    border-radius: 18px 0 18px 18px;
+    color:white;
+}
+
+.message-receiver {
+    display:flex;
+    margin-top:20px;
+}
+.message-receiver__img img {
+    width: 40px;
+    margin-left: 10px;
+}
+
+.message-receiver__msg {
+    width: 150px;
+    height: 20px;
+    margin-left:5px;
+    margin-right: 5px;
+    padding: 15px 15px 10px 20px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 0 22px 22px 22px;
+    font-weight: bold;
+    color:rgba(0,0,0,0.7);
+}
+
+.message-receiver__time-box {
+    display: flex;
+    align-items: end;
+    font-size: smaller;
+    font-weight: bold;
+    color: rgb(173, 173, 173);
+}
